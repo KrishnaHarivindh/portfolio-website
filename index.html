@@ -1,1 +1,450 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>B. Krishna Harivindh Reddy</title><style>body{margin:0;font-family:Inter,Segoe UI,Arial,sans-serif;background:#f7f9fc;color:#111827}main{max-width:1100px;margin:auto;padding:56px 24px}h1{font-size:44px;margin:0 0 10px}.lead{font-size:19px;color:#475569}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;margin-top:28px}.card{background:#fff;border:1px solid #e5e7eb;border-radius:8px;padding:20px}a{color:#0f62fe;text-decoration:none}.pill{display:inline-block;background:#eaf1ff;padding:6px 10px;border-radius:6px;margin:4px}</style></head><body><main><h1>B. Krishna Harivindh Reddy</h1><p class="lead">CSE Cloud Computing student building AI, full-stack, cloud, cybersecurity, and automation projects.</p><section><span class="pill">Python</span><span class="pill">TypeScript</span><span class="pill">React</span><span class="pill">FastAPI</span><span class="pill">Machine Learning</span><span class="pill">Cloud</span></section><section class="grid"><div class="card"><h2>Enterprise AI Copilot</h2><p>RAG, auth, agents, analytics.</p><a href="https://github.com/KrishnaHarivindh/Enterprise-AI-Copilot-Platform">View project</a></div><div class="card"><h2>AI SOC Platform</h2><p>Security event ingestion and SOC dashboard.</p><a href="https://github.com/KrishnaHarivindh/AI-Powered-SOC-Platform">View project</a></div><div class="card"><h2>HealthSense AI</h2><p>Chest X-ray risk analysis and explainability.</p><a href="https://github.com/KrishnaHarivindh/HealthSense-AI">View project</a></div></section><section><h2>Contact</h2><p><a href="https://github.com/KrishnaHarivindh">GitHub</a> · harivindhkrishna0802@gmail.com</p></section></main></body></html>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="B. Krishna Harivindh Reddy - CSE Cloud Computing student building AI, cloud, full-stack, cybersecurity, and QA automation projects."
+    >
+    <title>B. Krishna Harivindh Reddy</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --ink: #15171a;
+        --muted: #5d6673;
+        --line: #d8dee8;
+        --paper: #f6f7f9;
+        --panel: #ffffff;
+        --accent: #0f766e;
+        --accent-strong: #115e59;
+        --warm: #b45309;
+        --soft: #eef7f4;
+        --soft-warm: #fff7ed;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: Inter, "Segoe UI", Arial, sans-serif;
+        background: var(--paper);
+        color: var(--ink);
+        line-height: 1.55;
+      }
+
+      a {
+        color: var(--accent-strong);
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      header,
+      section,
+      footer {
+        padding: 36px 24px;
+      }
+
+      .wrap {
+        max-width: 1120px;
+        margin: 0 auto;
+      }
+
+      .hero {
+        background: var(--panel);
+        border-bottom: 1px solid var(--line);
+      }
+
+      .hero-grid {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) 180px;
+        gap: 32px;
+        align-items: center;
+      }
+
+      .eyebrow {
+        margin: 0 0 12px;
+        color: var(--accent-strong);
+        font-size: 14px;
+        font-weight: 700;
+        letter-spacing: 0;
+        text-transform: uppercase;
+      }
+
+      h1 {
+        margin: 0;
+        max-width: 780px;
+        font-size: clamp(34px, 5vw, 58px);
+        line-height: 1.05;
+        letter-spacing: 0;
+      }
+
+      .lead {
+        max-width: 780px;
+        margin: 20px 0 0;
+        color: var(--muted);
+        font-size: 19px;
+      }
+
+      .avatar {
+        width: 180px;
+        height: 180px;
+        border-radius: 8px;
+        border: 1px solid var(--line);
+        object-fit: cover;
+        background: var(--soft);
+      }
+
+      .actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin-top: 28px;
+      }
+
+      .button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 42px;
+        padding: 0 16px;
+        border: 1px solid var(--accent);
+        border-radius: 6px;
+        background: var(--accent);
+        color: #ffffff;
+        font-weight: 700;
+      }
+
+      .button.secondary {
+        background: #ffffff;
+        color: var(--accent-strong);
+      }
+
+      .stats {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 12px;
+        margin-top: 32px;
+      }
+
+      .stat {
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--panel);
+        padding: 16px;
+      }
+
+      .stat strong {
+        display: block;
+        font-size: 22px;
+      }
+
+      .stat span {
+        color: var(--muted);
+        font-size: 14px;
+      }
+
+      .section-title {
+        display: flex;
+        align-items: end;
+        justify-content: space-between;
+        gap: 16px;
+        margin-bottom: 18px;
+      }
+
+      h2 {
+        margin: 0;
+        font-size: 28px;
+        letter-spacing: 0;
+      }
+
+      .section-title p {
+        max-width: 560px;
+        margin: 0;
+        color: var(--muted);
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 16px;
+      }
+
+      .card {
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--panel);
+        padding: 20px;
+      }
+
+      .card h3 {
+        margin: 0 0 8px;
+        font-size: 19px;
+      }
+
+      .card p {
+        margin: 0 0 14px;
+        color: var(--muted);
+      }
+
+      .tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-top: 14px;
+      }
+
+      .tag {
+        border-radius: 6px;
+        background: var(--soft);
+        color: var(--accent-strong);
+        padding: 5px 8px;
+        font-size: 13px;
+        font-weight: 700;
+      }
+
+      .tag.warm {
+        background: var(--soft-warm);
+        color: var(--warm);
+      }
+
+      .timeline {
+        display: grid;
+        gap: 14px;
+      }
+
+      .row {
+        display: grid;
+        grid-template-columns: 220px minmax(0, 1fr);
+        gap: 20px;
+        border-top: 1px solid var(--line);
+        padding-top: 16px;
+      }
+
+      .row strong {
+        display: block;
+      }
+
+      .row span {
+        color: var(--muted);
+      }
+
+      .skills {
+        columns: 2;
+        column-gap: 32px;
+        margin: 0;
+        padding-left: 20px;
+      }
+
+      .skills li {
+        break-inside: avoid;
+        margin-bottom: 8px;
+      }
+
+      footer {
+        border-top: 1px solid var(--line);
+        background: var(--panel);
+      }
+
+      .footer-links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+      }
+
+      @media (max-width: 860px) {
+        .hero-grid,
+        .row {
+          grid-template-columns: 1fr;
+        }
+
+        .avatar {
+          width: 132px;
+          height: 132px;
+        }
+
+        .grid,
+        .stats {
+          grid-template-columns: 1fr;
+        }
+
+        .section-title {
+          display: block;
+        }
+
+        .section-title p {
+          margin-top: 8px;
+        }
+
+        .skills {
+          columns: 1;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="hero">
+      <div class="wrap hero-grid">
+        <div>
+          <p class="eyebrow">CSE Cloud Computing student</p>
+          <h1>B. Krishna Harivindh Reddy</h1>
+          <p class="lead">
+            I build applied AI/ML, agentic AI, cloud, full-stack, cybersecurity,
+            and QA automation projects with clean architecture and practical documentation.
+          </p>
+          <div class="actions">
+            <a class="button" href="https://github.com/KrishnaHarivindh">GitHub</a>
+            <a class="button secondary" href="mailto:harivindhkrishna0802@gmail.com">Email</a>
+          </div>
+        </div>
+        <img
+          class="avatar"
+          src="https://github.com/KrishnaHarivindh.png"
+          alt="B. Krishna Harivindh Reddy"
+        >
+      </div>
+      <div class="wrap stats">
+        <div class="stat">
+          <strong>8.82</strong>
+          <span>Current CGPA</span>
+        </div>
+        <div class="stat">
+          <strong>2027</strong>
+          <span>B.Tech expected graduation</span>
+        </div>
+        <div class="stat">
+          <strong>AI + Cloud</strong>
+          <span>Primary engineering direction</span>
+        </div>
+      </div>
+    </header>
+
+    <section>
+      <div class="wrap">
+        <div class="section-title">
+          <h2>Featured Projects</h2>
+          <p>Public repositories and resume-backed systems across AI, cloud, security, and automation.</p>
+        </div>
+        <div class="grid">
+          <article class="card">
+            <h3>Enterprise AI Copilot Platform</h3>
+            <p>RAG-ready document intelligence platform with authentication, RBAC, semantic search, agent workflows, and admin analytics.</p>
+            <a href="https://github.com/KrishnaHarivindh/Enterprise-AI-Copilot-Platform">View repository</a>
+            <div class="tags">
+              <span class="tag">FastAPI</span>
+              <span class="tag">React</span>
+              <span class="tag">PostgreSQL</span>
+            </div>
+          </article>
+          <article class="card">
+            <h3>HealthSense AI</h3>
+            <p>Healthcare AI prototype for chest X-ray risk prediction, clinical metadata fusion, Grad-CAM explainability, and reports.</p>
+            <a href="https://github.com/KrishnaHarivindh/HealthSense-AI">View repository</a>
+            <div class="tags">
+              <span class="tag">TensorFlow</span>
+              <span class="tag">XGBoost</span>
+              <span class="tag">Streamlit</span>
+            </div>
+          </article>
+          <article class="card">
+            <h3>AI-Powered SOC Platform</h3>
+            <p>Mini enterprise SIEM/SOC foundation for security event ingestion, alert monitoring, and analyst dashboards.</p>
+            <a href="https://github.com/KrishnaHarivindh/AI-Powered-SOC-Platform">View repository</a>
+            <div class="tags">
+              <span class="tag">FastAPI</span>
+              <span class="tag">TypeScript</span>
+              <span class="tag">Docker</span>
+            </div>
+          </article>
+          <article class="card">
+            <h3>MCP Appium Server</h3>
+            <p>Public MCP server for Appium-based mobile testing and AI-assisted QA automation workflows.</p>
+            <a href="https://github.com/KrishnaHarivindh/mcp-appium">View repository</a>
+            <div class="tags">
+              <span class="tag">Node.js</span>
+              <span class="tag">Appium</span>
+              <span class="tag">MCP</span>
+            </div>
+          </article>
+          <article class="card">
+            <h3>Transmission ML Analysis</h3>
+            <p>Industrial predictive analytics for automobile transmission temperature and friction-power estimation during DRDO CVRDE internship.</p>
+            <div class="tags">
+              <span class="tag warm">Scikit-Learn</span>
+              <span class="tag warm">XGBoost</span>
+              <span class="tag warm">LightGBM</span>
+            </div>
+          </article>
+          <article class="card">
+            <h3>AI-Driven QA Automation</h3>
+            <p>Multi-LLM QA orchestration for test generation, gap analysis, app exploration, and automation script generation.</p>
+            <div class="tags">
+              <span class="tag warm">Claude</span>
+              <span class="tag warm">GPT</span>
+              <span class="tag warm">Playwright</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <div class="section-title">
+          <h2>Experience</h2>
+          <p>Internship and project work focused on applied machine learning, cloud computing, and enterprise software.</p>
+        </div>
+        <div class="timeline">
+          <div class="row">
+            <div>
+              <strong>DRDO CVRDE</strong>
+              <span>Machine Learning Research Intern</span>
+            </div>
+            <p>Developed predictive analytics workflows for automobile transmission temperature and friction-power estimation using model benchmarking and feature engineering.</p>
+          </div>
+          <div class="row">
+            <div>
+              <strong>AWS Academy / AICTE EduSkills</strong>
+              <span>Cloud and Generative AI Intern</span>
+            </div>
+            <p>Completed cloud architecture, IAM, networking, storage, security, foundation model, prompt engineering, and responsible AI learning tracks.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <div class="section-title">
+          <h2>Skills And Certifications</h2>
+          <p>Core technologies and verified learning areas from resumes, projects, and certificates.</p>
+        </div>
+        <ul class="skills">
+          <li><strong>Languages:</strong> Python, Java, TypeScript, JavaScript, SQL, C++</li>
+          <li><strong>AI/ML:</strong> TensorFlow, Keras, Scikit-Learn, XGBoost, LightGBM, Pandas, NumPy</li>
+          <li><strong>LLM systems:</strong> RAG, prompt engineering, semantic search, pgvector, MCP, multi-agent workflows</li>
+          <li><strong>Full stack:</strong> React, Vite, FastAPI, Node.js, Express.js, REST APIs</li>
+          <li><strong>Cloud:</strong> AWS, Azure, Oracle Cloud Infrastructure, IBM Cloud fundamentals</li>
+          <li><strong>Security and QA:</strong> JWT, RBAC, Fortinet, Zscaler, Selenium, Playwright, Cypress</li>
+          <li><strong>Certifications:</strong> OCI Generative AI Professional, Azure DP-900, AWS Academy, NPTEL Java, NPTEL DBMS</li>
+          <li><strong>Tools:</strong> Git, GitHub, Docker, Postman, Jira, GitHub Copilot</li>
+        </ul>
+      </div>
+    </section>
+
+    <footer>
+      <div class="wrap">
+        <div class="footer-links">
+          <a href="https://github.com/KrishnaHarivindh">GitHub</a>
+          <a href="https://github.com/KrishnaHarivindh?tab=repositories">Repositories</a>
+          <a href="mailto:harivindhkrishna0802@gmail.com">harivindhkrishna0802@gmail.com</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
