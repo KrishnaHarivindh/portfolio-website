@@ -10,6 +10,7 @@ Static GitHub Pages portfolio for AI/ML, agentic AI, cloud, full-stack, cybersec
 
 - Professional summary and contact links
 - Featured public repositories
+- Mahathi AI internship project prototypes
 - Resume-backed internship and project highlights
 - Skills and certification summary
 
